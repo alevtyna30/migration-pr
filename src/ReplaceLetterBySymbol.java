@@ -5,11 +5,11 @@ public class ReplaceLetterBySymbol {
                 "when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
         int s = 2;
         char symbol = '!';
-        System.out.printf("Before: %s%sAfter: %s", text, System.lineSeparator(), replaceLetterBySymbol(text, s, symbol));
+        System.out.printf("Before: %s%sAfter: %s", text, System.lineSeparator(), replaceCharBySymbol(text, s, symbol));
 
 
     }
-    public static String replaceLetterBySymbol(String text, int index, char symbol){
+    public static String replaceCharBySymbol(String text, int index, char symbol){
         StringBuilder str = new StringBuilder(text);
         for (String word : text.split(" ")) {
            if(word.length()>= index){

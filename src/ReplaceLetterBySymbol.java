@@ -9,9 +9,9 @@ public class ReplaceLetterBySymbol {
                 "are no mice in the air, I’m afraid, but you" +
                 "might catch a bat, and that’s very like a mouse,q" +
                 "you know. But do cats eat bats, I wonder?”";
-        int q = 1;
-        char symbol = '*';
-        System.out.printf("Before: %s%sAfter: %s", text, System.lineSeparator(), replaceCharBySymbol(text, q, symbol));
+        int s = 2;
+        char symbol = '!';
+        System.out.printf("Before: %s%sAfter: %s", text, System.lineSeparator(), replaceCharBySymbol(text, s, symbol));
 
 
     }

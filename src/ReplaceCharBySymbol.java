@@ -1,4 +1,4 @@
-public class ReplaceLetterBySymbol {
+public class ReplaceCharBySymbol {
     public static void main(String[] args) {
         String text = "Down, down, down. There was nothing else to" +
                 "do, so Alice soon began talking again. “Dinah ’ll" +

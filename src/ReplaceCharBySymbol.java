@@ -1,6 +1,6 @@
 public class ReplaceCharBySymbol {
     public static void main(String[] args) {
-        String text = "Down, down, down. There was nothing else to" +
+        String text = "Alise said: Down, down, down. There was nothing else to" +
                 "do, so Alice soon began talking again. “Dinah ’ll" +
                 "miss me very much to-night, I should think !”" +
                 "(Dinah was the cat.) “ I hope they’ll remember" +

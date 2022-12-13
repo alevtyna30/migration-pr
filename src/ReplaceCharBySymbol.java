@@ -3,7 +3,7 @@ public class ReplaceCharBySymbol {
         String text = "Alise said: Down, down, down. There was nothing else to" +
                 "do, so Alice soon began talking again. “Dinah ’ll" +
                 "miss me very much to-night, I should think !”" +
-                "(Dinah was the cat.) “";
+                "(Dinah was the cats %%%%.) “";
         int s = 2;
         char symbol = '!';
         System.out.printf("Before: %s%sAfter: %s", text, System.lineSeparator(), replaceCharBySymbol(text, s, symbol));
